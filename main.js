@@ -3,13 +3,13 @@ var app = angular.module('mainModule', []);
 app
   .value('constants', {
     //your own aws keys must be used here.
-    AWSAccessKeyId: Your AWS Key,
-    AWSsecretkeyId: Your AWS Key,
+    AWSAccessKeyId: 'Your AWS Key',
+    AWSsecretkeyId: 'Your AWS Key',
     URI: "ecs.amazonaws.jp"
   })
   .value('options', {
-    //These parameters can be changed for your purposes
-    AssociateTag: your tag,
+    //These parameters can be changed for searching category and methods
+    AssociateTag: 'your Associate tag',
     Operation: "ItemSearch",
     SearchIndex: "Books",
   });
