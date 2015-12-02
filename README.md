@@ -6,7 +6,9 @@
 ##How to use
 use index.html or index.jade
 
-include JS files in lib/,main.js and query-generator.js
+and include JS files in lib/,main.js and query-generator.js
+
+angular.js v1.3.9 is used
 
 put your own AWS key in main.js 
 
