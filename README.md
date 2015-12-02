@@ -1,4 +1,4 @@
-mazon Search with AngularJS
+#Amazon Search with AngularJS
 
 * Amazon search box with auto-complete 
 * only client-side codes 
